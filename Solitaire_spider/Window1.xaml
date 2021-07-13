@@ -1,0 +1,35 @@
+﻿<Window x:Class="Solitaire_spider.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Solitaire_spider"
+        mc:Ignorable="d"
+        Title="Poziom trudnosci" Height="600" Width="800"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <Button  x:Name="latwy" HorizontalAlignment="Left" VerticalAlignment="Top" Width="131" Margin="88,393,0,0" Height="63"
+                  BorderThickness="0"  
+                 Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Click="Latwy_Click" >
+
+
+        </Button>
+        <Button  x:Name="sredni" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="323,392,0,0" Height="64"
+                  BorderThickness="0"  
+                 Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Click="Sredni_Click" >
+
+
+        </Button>
+        <Button  x:Name="trudny" HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" Margin="565,392,0,0" Height="64"
+                  BorderThickness="0"  
+                 Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Click="Trudny_Click" >
+
+
+        </Button>
+        <Button Content="Pomoc" HorizontalAlignment="Left" Margin="740,565,0,0" VerticalAlignment="Top" Width="50" Height="25" Click="Button_Click"/>
+    </Grid>
+
+</Window>
